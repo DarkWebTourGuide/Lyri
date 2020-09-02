@@ -1,7 +1,13 @@
 /*----------Layout-------------*/
 
 /*----------Navigation-------------*/
+.nav {
+  position: sticky;
+}
 
+.navbar-brand {
+  padding-left: 20px;
+}
 /*----------Lyrics-------------*/
 
 /*----------Display Lyrics-------------*/
