@@ -1,5 +1,8 @@
 /*----------Layout-------------*/
-
+body {
+  background-color: white;
+  font-family: quicksand, sans-serif;
+}
 /*----------Navigation-------------*/
 .nav {
   position: sticky;
