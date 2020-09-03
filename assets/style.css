@@ -33,5 +33,34 @@ main {
 /*----------Display Lyrics-------------*/
 
 /*----------Search Bar-------------*/
+#form input {
+  margin: 4px 2px;
+  padding: 10px 20px;
+  border-width: 0;
+  border-radius: 33px;
+  border-color: black;
+  text-indent: 10px;
+  display: inline-flex;
+  width: 70%;
+}
 
+#searchButton {
+  margin: 4px 2px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 33px;
+  background-color: rgb(244, 188, 68);
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#searchbutton:active {
+  transform: scale(0.95);
+}
+input:focus,
+button:focus {
+  outline: none;
+}
 /*----------Button Styles-------------*/
