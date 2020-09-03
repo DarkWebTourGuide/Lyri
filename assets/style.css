@@ -13,7 +13,24 @@ body {
 .navbar-brand {
   padding-left: 5px;
 }
-/*----------Jumbotron-------------*/
+/*----------Button-------------*/
+.bmbtn {
+  background-color: #ff66c4;
+  border: 0;
+  border-radius: 33px;
+  color: #fff;
+  padding: 4px 10px;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+/*----------Jumbotron has no style like me in 6th grade-------------*/
 
 /*----------Lyrics-------------*/
 main {
