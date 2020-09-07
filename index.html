@@ -51,7 +51,14 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#"> Can't find a song? </a>
+              <a
+                class="nav-link text-dark"
+                data-toggle="modal"
+                data-target="#infoModal"
+                href="#infoModal"
+              >
+                Can't find a song?
+              </a>
             </li>
           </ul>
         </div>
@@ -165,6 +172,41 @@
         >ChrisAdams.io</a
       >
     </footer>
+
+    <!--Navbar Modal-->
+    <div
+      class="modal fade"
+      id="infoModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="infoLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="infoLabel">Thanks for using Lyri !</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Sorry we couldn't find your lyrics. We're working hard to add more
+              features to our search. Our priorities include better prediciton
+              and interpretation of submitted information. Feel free to try
+              tweaking your input to see if that helps.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!--Javascript-->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
