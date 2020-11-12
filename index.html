@@ -17,14 +17,12 @@
     <link rel="stylesheet" type="text/css" href="assets/style.css" />
   </head>
   <body>
-    <!--Nav-->
+    <!--Navigation Bar-->
     <header>
-      <nav
-        class="navbar navbar-expand-md sticky-top bg-light align-items-center"
-      >
+      <nav class="navbar navbar-expand-md sticky-top bg-light align-items-center">
         <a class="navbar-brand mr-auto" href="index.html">
-          <img src="./assets/img/lyri.png" width="90" height="90" alt="Lyri"
-        /></a>
+          <img src="./assets/img/lyri.png" width="90" height="90" alt="Lyri"/>
+        </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -32,21 +30,15 @@
           data-target="#navbarCollapse"
           aria-controls="navbarCollapse"
           aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"
-            ><i class="fa fa-ellipsis-v" style="font-size: 30px"></i
-          ></span>
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon">
+            <i class="fa fa-ellipsis-v" style="font-size: 30px"></i>
+          </span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a
-                class="nav-link text-dark"
-                data-toggle="modal"
-                data-target="#infoModal"
-                href="#infoModal"
-              >
+              <a class="nav-link text-dark" data-toggle="modal" data-target="#infoModal" href="#infoModal">
                 Can't find a song?
               </a>
             </li>
@@ -54,7 +46,7 @@
         </div>
       </nav>
     </header>
-    <!--Hero Section-->
+    <!--Intro Section-->
     <div class="container-fluid jumbotron bg-light">
       <div class="row">
         <div class="col-md-6">
@@ -69,38 +61,21 @@
           </p>
         </div>
         <div class="col-md-6">
-          <img
-            class="hero-image d-none d-md-block max-width"
-            src="./assets/img/undraw_happy_music_g6wc.svg"
-            width="400"
-            height="400"
-            alt="Happy Music Bird"
-          />
+          <img class="hero-image d-none d-md-block max-width" src="./assets/img/undraw_happy_music_g6wc.svg" width="400" height="400" alt="Happy Music Bird"/>
         </div>
       </div>
     </div>
-    <!--Search Section-->
+    <!--Main App/Search Section-->
     <div class="container-fluid">
       <div class="row">
-        <main
-          role="main"
-          class="col-md-12 ml-sm-auto col-lg-12 px-md-4"
-          id="lyrics"
-        >
-          <div
-            class="d-flex justify-content-center flex-wrap flex-md-nowrap align-items-center text-center pt-3 pb-2 mb-3 border-bottom text-white"
-          >
+        <main role="main" class="col-md-12 ml-sm-auto col-lg-12 px-md-4" id="lyrics">
+          <div class="d-flex justify-content-center flex-wrap flex-md-nowrap align-items-center text-center pt-3 pb-2 mb-3 border-bottom text-white">
             <h1>Search millions of songs</h1>
           </div>
-
           <div class="col-md-12 text-center">
-            <!--Input-->
+            <!--Artist or Song Name Input-->
             <form id="form">
-              <input
-                type="text"
-                id="search"
-                placeholder="Search artist or song..."
-              />
+              <input type="text" id="search" placeholder="Search artist or song..."/>
               <button id="searchButton">Search</button>
             </form>
           </div>
@@ -113,18 +88,11 @@
         </main>
       </div>
     </div>
-
     <!--Info Section-->
     <div class="container-fluid jumbotron bg-light">
       <div class="row">
         <div class="col-md-6">
-          <img
-            class="hero-image d-none d-md-block max-width center"
-            src="./assets/img/undraw_mello_otq1.svg"
-            width="400"
-            height="400"
-            alt="Mello"
-          />
+          <img class="hero-image d-none d-md-block max-width center" src="./assets/img/undraw_mello_otq1.svg" width="400" height="400" alt="Mello"/>
         </div>
         <div class="col-md-6 text-center">
           <h1 class="d-block">Craving new tunes?</h1>
@@ -139,36 +107,23 @@
             calming interactive content so sit back, relax and let the music
             take control.
           </p>
-          
-            <a
-              href="https://beatmango.com"
-              target="_blank"
-            ><button class="bmbtn">Explore
-          </button></a
-            >
+            <a href="https://beatmango.com" target="_blank">
+              <button class="bmbtn">Explore</button>
+            </a>
           <br />
           <br />
         </div>
         <br />
         <br />
         <div class="col-md-6">
-          <img
-            class="d-sm-none img-fluid max-width center"
-            src="./assets/img/undraw_mello_otq1.svg"
-            width="400"
-            height="400"
-            alt="Mello"
-          />
+          <img class="d-sm-none img-fluid max-width center" src="./assets/img/undraw_mello_otq1.svg" width="400" height="400" alt="Mello"/>
         </div>
       </div>
     </div>
     <!--Footer-->
     <footer class="container text-center">
-      <a class="text-dark" href="https://chrisadams.io" target="_blank"
-        >ChrisAdams.io</a
-      >
+      <a class="text-dark" href="https://chrisadams.io" target="_blank">ChrisAdams.io</a>
     </footer>
-
     <!--Navbar Modal-->
     <div
       class="modal fade"
@@ -176,18 +131,12 @@
       tabindex="-1"
       role="dialog"
       aria-labelledby="infoLabel"
-      aria-hidden="true"
-    >
+      aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="infoLabel">Thanks for using Lyri !</h5>
-            <button
-              type="button"
-              class="close"
-              data-dismiss="modal"
-              aria-label="Close"
-            >
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
@@ -202,24 +151,10 @@
         </div>
       </div>
     </div>
-
     <!--Javascript-->
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"
-      integrity="sha384-1CmrxMRARb6aLqgBO7yyAxTOQE2AKb9GfXnEo760AUcUmFx3ibVJJAzGytlQcNXd"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js" integrity="sha384-1CmrxMRARb6aLqgBO7yyAxTOQE2AKb9GfXnEo760AUcUmFx3ibVJJAzGytlQcNXd" crossorigin="anonymous"></script>
     <script src="./js/app.js"></script>
   </body>
 </html>
