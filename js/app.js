@@ -77,7 +77,7 @@ form.addEventListener("submit", (e) => {
   const searchTerm = search.value.trim();
 
   if (!searchTerm) {
-    // JOB: Add Div which informs user not valid submission...
+    // Catch invalid submission...
     alert("Uh-oh! Looks like we couldn't find anything. Check your spelling.");
   } else {
     searchSongs(searchTerm);
