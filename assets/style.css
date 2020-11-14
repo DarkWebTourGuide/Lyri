@@ -109,9 +109,9 @@ button:focus {
   transform: scale(1.3);
   margin: 15px;
 }
-#lyrics * {
-  z-index: 1; /* Make Sure On Top */
-}
+/* #lyrics * {
+  z-index: 1; 
+} */
 
 /* Result Styles */
 span.lead:hover {
